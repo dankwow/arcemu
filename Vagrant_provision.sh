@@ -58,11 +58,11 @@ make install
 # Create some directories
 mkdir -p /home/arcemu/arcemu/bin/DBC
 mkdir -p /home/arcemu/arcemu/bin/maps
-mkdir -p /home/arcemu/arcemu/bin/etc
+mkdir -p /home/arcemu/arcemu/bin/configs
 mkdir -p /home/arcemu/arcemu/bin/log
 
 # Copy config files
-cp -r /home/arcemu/arcemu/src/configs/* /home/arcemu/arcemu/bin/etc
+cp -r /home/arcemu/arcemu/src/configs/* /home/arcemu/arcemu/bin/configs
 
 # Make everything owned by the arcemu user
 chown -R arcemu:arcemu /home/arcemu
